@@ -8,4 +8,7 @@ $ git config --global user.email "carrenolg@gmail.com"
 
 # Video 5
 $ git init # crea carpeta .git
-
+# untracke y tracke
+$ git add "file.txt" # send to stage
+$ git commit -m "first commit" # send to repository
+# segundo commit
