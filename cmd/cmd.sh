@@ -27,3 +27,7 @@ $ git reset "id-commit" --hard
 # crear nueva branch
 $ git branch dev
 $ git checkout dev # seleccionar branch "dev"
+
+# video 9
+# merge entre "master" y "dev"
+$ git merge dev # debe estar en el branch master
