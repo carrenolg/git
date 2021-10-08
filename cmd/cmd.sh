@@ -14,4 +14,4 @@ $ git commit -m "first commit" # send to repository
 # segundo commit
 $ git log --oneline # muestra todos los commits
 $ git checkout "id-commit" # cambiar de version
-
+$ git show # muestra los cambios entre versiones
