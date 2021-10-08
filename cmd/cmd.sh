@@ -12,6 +12,13 @@ $ git init # crea carpeta .git
 $ git add "file.txt" # send to stage
 $ git commit -m "first commit" # send to repository
 # segundo commit
+
+# video 6
 $ git log --oneline # muestra todos los commits
 $ git checkout "id-commit" # cambiar de version
 $ git show # muestra los cambios entre versiones
+
+# video 7
+# utilizando git reset
+# regresa a una versión especifica
+$ git reset "id-commit" --hard
