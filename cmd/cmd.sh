@@ -34,4 +34,4 @@ $ git merge dev # debe estar en el branch master
 
 # video 10
 # conflictos en merge
-# change en "master"
+# change en "dev"
