@@ -22,3 +22,8 @@ $ git show # muestra los cambios entre versiones
 # utilizando git reset
 # regresa a una versión especifica
 $ git reset "id-commit" --hard
+
+# video 8
+# crear nueva branch
+$ git branch dev
+$ git checkout dev # seleccionar branch "dev"
