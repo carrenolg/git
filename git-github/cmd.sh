@@ -37,4 +37,6 @@ $ git merge dev # debe estar en el branch master
 # change en "dev"
 
 # video 12 (repo remotos)
+# enlazar repo local con repo remoto
+$ git remote add origin https://github.com/carrenolg/git.git
 
