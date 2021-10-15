@@ -51,3 +51,14 @@ $ touch .gitignore
 $ git add .gitignore
 $ git commit -m "add .gitignore"
 $ git push origin master
+
+# video 15
+# crear nuevo tag
+$ git checkout dev
+$ git push origin dev
+$ git tag # show local tags
+$ git tag -a v1.0.0 -m "version v1.0.0" id-commit
+$ git push origin --tags
+# eliminar tag
+$ git tag -d v1.x.x
+$ git push origin :refs/tags/v1.x.x
