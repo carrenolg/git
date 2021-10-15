@@ -45,3 +45,9 @@ $ git add "path" # agregar cambios
 $ git commit -m "msg"
 $ git push origin master # enviar cambios a la rama master
 # nota: podemos enviar cambios a cualquier branch en el repo remoto
+
+# video 14
+$ touch .gitignore
+$ git add .gitignore
+$ git commit -m "add .gitignore"
+$ git push origin master
