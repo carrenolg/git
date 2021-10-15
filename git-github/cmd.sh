@@ -40,3 +40,8 @@ $ git merge dev # debe estar en el branch master
 # enlazar repo local con repo remoto
 $ git remote add origin https://github.com/carrenolg/git.git
 
+# video 13 
+$ git add "path" # agregar cambios
+$ git commit -m "msg"
+$ git push origin master # enviar cambios a la rama master
+# nota: podemos enviar cambios a cualquier branch en el repo remoto
