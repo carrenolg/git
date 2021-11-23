@@ -1,6 +1,6 @@
 # Video 1
 # instalar y añadir identificación
-$ git config --global user.name "Luis G. Carreno"
+$ git config --global user.name "carrenolg"
 $ git config --global user.email "carrenolg@gmail.com"
 
 # Video 4
@@ -69,3 +69,11 @@ $ git push --set-upstream origin master --force # elimina remotamente
 
 # Clear credencials (sing out)
 $ git config --global --unset credential.helper
+
+# auth with PAT on a reposiroty
+$ git remote set-url origin https://TOKEN@github.com/carrenolg/golang.git
+
+# auth with PAT on git (global)
+$ git config --global --unset credential.helper
+$ git config --global credential.helper cache
+$ git push # then, give you Username and token
