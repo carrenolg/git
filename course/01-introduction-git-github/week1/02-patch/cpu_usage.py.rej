@@ -1,0 +1,8 @@
+*** /dev/null
+--- /dev/null
+***************
+*** 4
+-     usage = psutil.cpu_percent()
+--- 4,5 -----
++     usage = psutil.cpu_percent(1)
++     print("DEBUG: usage: {}".format(usage))
