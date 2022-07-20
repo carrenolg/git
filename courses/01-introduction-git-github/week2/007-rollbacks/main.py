@@ -17,8 +17,8 @@ if not check_disk_usage("/", 2, 10):
     print("ERROR: not enough disk space")
     sys.exit(1)
 # check disk full
-#if check_full():
-#    print("Disk Full.")
+if check_full():
+    print("Disk Full.")
 
 print("Everything ok")
 sys.exit(0)
