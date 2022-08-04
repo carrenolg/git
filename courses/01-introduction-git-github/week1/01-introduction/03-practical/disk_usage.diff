@@ -1,0 +1,16 @@
+1a2
+> import sys
+15c16
+< if not check_disk_usage("/", 2*2**30, 10):
+---
+> if not check_disk_usage("/", 2, 10):
+17c18
+<     return 1
+---
+>     sys.exit(1)
+20c21
+< return 0
+\ No newline at end of file
+---
+> sys.exit(0)
+\ No newline at end of file
