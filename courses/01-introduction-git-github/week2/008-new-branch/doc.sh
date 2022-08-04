@@ -6,3 +6,8 @@ $ git checkout -b [name-branch] # create and switch to new branch
 # Video: Working With Branches
 $ git checkout [name-branch] # switch between branches
 $ git branch - d [name-branch] # delete branche
+
+# Video: Merging
+$ git merge [new-feaure] # from "master" branch
+
+# Video:
