@@ -10,4 +10,6 @@ $ git merge origin/master # merge remote changes with local branch
 $ git pull
 ## Solving Conflicts
 # video: The Pull-Merge-Push Workflow
-$ 
+$ git pull
+$ git log --graph --oneline --all # show conflicts
+$ git log -p origin/master
