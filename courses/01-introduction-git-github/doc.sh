@@ -8,3 +8,6 @@ $ git fetch # get commits from origin
 $ git merge origin/master # merge remote changes with local branch
 # video: Updating the Local Repository
 $ git pull
+## Solving Conflicts
+# video: The Pull-Merge-Push Workflow
+$ 
