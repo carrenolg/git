@@ -8,8 +8,12 @@ $ git fetch # get commits from origin
 $ git merge origin/master # merge remote changes with local branch
 # video: Updating the Local Repository
 $ git pull
-## Solving Conflicts
-# video: The Pull-Merge-Push Workflow
+# Solving Conflicts
+# video1: The Pull-Merge-Push Workflow
 $ git pull
 $ git log --graph --oneline --all # show conflicts
 $ git log -p origin/master
+# video2: Rebasing Your Changes
+$ git rebase
+# video3: Another Rebasing Example
+
