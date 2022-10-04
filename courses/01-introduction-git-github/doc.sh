@@ -16,4 +16,5 @@ $ git log -p origin/master
 # video2: Rebasing Your Changes
 $ git rebase
 # video3: Another Rebasing Example
+$ git fetch # from master
 
