@@ -17,4 +17,5 @@ $ git log -p origin/master
 $ git rebase
 # video3: Another Rebasing Example
 $ git fetch # from master
+$ git rebase origin/master
 
